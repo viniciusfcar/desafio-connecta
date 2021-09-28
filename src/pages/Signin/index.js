@@ -1,4 +1,4 @@
-import React, { useState, useContext} from 'react'
+import React, { useState } from 'react'
 import { useFormik } from 'formik'
 import * as yup from 'yup'
 
@@ -148,7 +148,7 @@ const SignIn = () => {
                 }
         </Container>
     );
-}
+};
 
 export default SignIn
 

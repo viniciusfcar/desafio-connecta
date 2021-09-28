@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React from 'react'
 
 import success from '../../assets/imagens/success.jpeg'
 
