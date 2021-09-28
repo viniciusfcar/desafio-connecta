@@ -36,7 +36,7 @@ const SignIn = () => {
         onSubmit: (values) => {
             if(values.email.length === 0 || values.password.length === 0) {
                 return
-            } else if(values.email == 'desafio@connecta.com' && values.password == '123'){
+            } else if(values.email === 'desafio@connecta.com' && values.password === '123'){
                 localStorage.setItem('email', values.email)
                 window.location.href = '/success'
             
